@@ -1,0 +1,12 @@
+C:\Users\halilkayim\Documents\Playground\Unity\Projects\Astronaut's Dilemma\Temp\bin\Debug\Assembly-CSharp.dll
+C:\Users\halilkayim\Documents\Playground\Unity\Projects\Astronaut's Dilemma\Temp\bin\Debug\Assembly-CSharp.pdb
+C:\Users\halilkayim\Documents\Playground\Unity\Projects\Astronaut's Dilemma\Temp\bin\Debug\UnityEditor.dll
+C:\Users\halilkayim\Documents\Playground\Unity\Projects\Astronaut's Dilemma\Temp\bin\Debug\UnityEngine.dll
+C:\Users\halilkayim\Documents\Playground\Unity\Projects\Astronaut's Dilemma\Temp\bin\Debug\UnityEngine.UI.dll
+C:\Users\halilkayim\Documents\Playground\Unity\Projects\Astronaut's Dilemma\Temp\bin\Debug\Mono.Cecil.dll
+C:\Users\halilkayim\Documents\Playground\Unity\Projects\Astronaut's Dilemma\Temp\bin\Debug\nunit.framework.dll
+C:\Users\halilkayim\Documents\Playground\Unity\Projects\Astronaut's Dilemma\Temp\bin\Debug\Unity.DataContract.dll
+C:\Users\halilkayim\Documents\Playground\Unity\Projects\Astronaut's Dilemma\Temp\bin\Debug\ICSharpCode.NRefactory.dll
+C:\Users\halilkayim\Documents\Playground\Unity\Projects\Astronaut's Dilemma\obj\Debug\Assembly-CSharp-vs.csprojResolveAssemblyReference.cache
+C:\Users\halilkayim\Documents\Playground\Unity\Projects\Astronaut's Dilemma\obj\Debug\Assembly-CSharp.dll
+C:\Users\halilkayim\Documents\Playground\Unity\Projects\Astronaut's Dilemma\obj\Debug\Assembly-CSharp.pdb
