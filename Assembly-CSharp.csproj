@@ -47,13 +47,21 @@
   </ItemGroup>
   <ItemGroup>
      <Compile Include="Assets\Scripts\Annihilator.cs" />
+     <Compile Include="Assets\Scripts\BackgroundTransparency.cs" />
+     <Compile Include="Assets\Scripts\Credits.cs" />
+     <Compile Include="Assets\Scripts\DiarrheaSea.cs" />
+     <Compile Include="Assets\Scripts\Exit.cs" />
      <Compile Include="Assets\Scripts\GameConstants.cs" />
+     <Compile Include="Assets\Scripts\GameData.cs" />
+     <Compile Include="Assets\Scripts\HowToPlay.cs" />
      <Compile Include="Assets\Scripts\NicerSizer.cs" />
      <Compile Include="Assets\Scripts\Obstacle.cs" />
      <Compile Include="Assets\Scripts\ObstacleCreator.cs" />
      <Compile Include="Assets\Scripts\PropellerController.cs" />
+     <Compile Include="Assets\Scripts\RestartGame.cs" />
      <Compile Include="Assets\Scripts\SpaceshipController.cs" />
      <Compile Include="Assets\Scripts\TerrainCreator.cs" />
+     <Compile Include="Assets\StartGame.cs" />
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files (x86)/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/4.6.1/UnityEngine.UI.dll</HintPath>
  </Reference>

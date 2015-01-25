@@ -10,6 +10,8 @@ namespace Assets.Scripts
         private float _lastTime;
         public float Threshold = 1.0f;
 
+        public GameObject TerrainHandlerObject;
+
         [SerializeField]
         public GameObject[] Types;
         // Use this for initialization
@@ -23,12 +25,32 @@ namespace Assets.Scripts
         {
             if (Time.time - _lastTime > Threshold)
             {
-                var obstacleIndex = (Random.value < 0.5f) ? 0 : 1;
+                int val = Random.Range(0, 3);
+                var obstacleIndex = 0;
+                Debug.Log(val);
+                switch (val)
+                {
+                    case 0:
+                        obstacleIndex = 0;
+                        break;
+                    case 1:
+                        obstacleIndex = 1;
+                        break;
+                    case 2:
+                        obstacleIndex = 2;
+                        break;
+                }
+
+                int rotation = Random.Range(0, 4);
                 GameObject obstacle = Instantiate(Types[obstacleIndex], new Vector3(), Quaternion.identity) as GameObject;
                 if (obstacle != null)
                 {
-                    obstacle.GetComponent<Obstacle>().ResetObstacle();
+                    TerrainCreator tc = TerrainHandlerObject.GetComponent<TerrainCreator>();
+                    float startRange = tc.LastLeftTerrain.renderer.bounds.extents.x * 2;
+                    float endRange = tc.LastRightTerrain.renderer.bounds.extents.x * 2;
+                    obstacle.GetComponent<Obstacle>().ResetObstacle(-10f + startRange, 10f - endRange);
                     obstacle.transform.parent = transform;
+                    obstacle.transform.rotation = Quaternion.Euler(0, 0, 90f*rotation);
                 }
                 
                 _lastTime = Time.time;

@@ -7,7 +7,10 @@ namespace Assets.Scripts
     public class SpaceshipController : MonoBehaviour
     {
         public float Rotation;
+        public float Damage;
         public GameObject LeftEngine, RightEngine, Popo;
+
+        private Transform _healthBar, _emptyHealthBar;
 
         private PropellerController _leftPropellerController, _rightPropellerController;
         // Use this for initialization
@@ -15,6 +18,8 @@ namespace Assets.Scripts
         {
             _leftPropellerController = LeftEngine.GetComponent<PropellerController>();
             _rightPropellerController = RightEngine.GetComponent<PropellerController>();
+            _healthBar = Popo.transform.FindChild("HealthBarFull");
+            _emptyHealthBar = Popo.transform.FindChild("HealthBarEmpty");
         }
 
         private void FixedUpdate()
@@ -85,12 +90,31 @@ namespace Assets.Scripts
 
             GameConstants.FLOW_SPEED = Mathf.Cos(Mathf.Deg2Rad * Rotation) * GameConstants.DEFAULT_SPEED;
             //Debug.Log(Screen.height);
+
+            //_healthBar.rotation = Quaternion.Euler(0, 0, 0);
+            //_emptyHealthBar.rotation = Quaternion.Euler(0, 0, 0);
+        }
+
+        void OnTriggerEnter2D(Collider2D other)
+        {
+            if (other.name.Contains("Obstacle"))
+            {
+                _healthBar.localScale = new Vector3(_healthBar.localScale.x - Damage, _healthBar.localScale.y);
+                if (_healthBar.localScale.x <= 0)
+                {
+                    Application.LoadLevel("GameOver");
+                }
+            }
+            else if (other.name.Contains("Ice") || other.name.Contains("Forest"))
+            {
+                Application.LoadLevel("GameOver");
+            }
         }
 
         // Update is called once per frame
         private void Update()
         {
-
+           
         }
     }
 }

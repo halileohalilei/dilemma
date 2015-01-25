@@ -19,10 +19,13 @@ namespace Assets.Scripts
             rigidbody2D.velocity = new Vector2(0, -GameConstants.FLOW_SPEED);
         }
 
-        public void ResetObstacle()
+        public void ResetObstacle(float start, float end)
         {
-            var xPos = UnityEngine.Random.Range(-2.5f, 2.5f);
-            transform.position = new Vector3(xPos, 5.0f);
+            var xPos = UnityEngine.Random.Range(start + renderer.bounds.extents.x, end - renderer.bounds.extents.x);
+            transform.position = new Vector3(xPos, 10f);
         }
+
     }
+
+
 }
