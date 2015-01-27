@@ -12,7 +12,43 @@ Platform assembly: C:\Users\halilkayim\Documents\Playground\Unity\Projects\Astro
 Loading C:\Users\halilkayim\Documents\Playground\Unity\Projects\Astronaut's Dilemma\DILEMMA_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
 Platform assembly: C:\Users\halilkayim\Documents\Playground\Unity\Projects\Astronaut's Dilemma\DILEMMA_Data\Managed\UnityEngine.UI.dll (this message is harmless)
 Loading C:\Users\halilkayim\Documents\Playground\Unity\Projects\Astronaut's Dilemma\DILEMMA_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
-- Completed reload, in  0.096 seconds
+- Completed reload, in  0.094 seconds
 desktop: 1366x768 60Hz; virtual: 1366x768 at 0,0
 <RI> Initializing input.
 <RI> Input initialized.
+Platform assembly: C:\Users\halilkayim\Documents\Playground\Unity\Projects\Astronaut's Dilemma\DILEMMA_Data\Managed\System.Core.dll (this message is harmless)
+Platform assembly: C:\Users\halilkayim\Documents\Playground\Unity\Projects\Astronaut's Dilemma\DILEMMA_Data\Managed\System.dll (this message is harmless)
+UnloadTime: 3.390016 ms
+Unloading 4 Unused Serialized files (Serialized files now loaded: 0 / Dirty serialized files: 0)
+
+Unloading 2 unused Assets to reduce memory usage. Loaded Objects now: 147.
+Total: 0.676039 ms (FindLiveObjects: 0.008032 ms CreateObjectMapping: 0.010709 ms MarkObjects: 0.133869 ms  DeleteObjects: 0.003569 ms)
+
+UnloadTime: 0.325302 ms
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0 / Dirty serialized files: 0)
+
+Unloading 1 unused Assets to reduce memory usage. Loaded Objects now: 196.
+Total: 0.657298 ms (FindLiveObjects: 0.008478 ms CreateObjectMapping: 0.008032 ms MarkObjects: 0.154395 ms  DeleteObjects: 0.002677 ms)
+
+UnloadTime: 0.665776 ms
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0 / Dirty serialized files: 0)
+
+Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 147.
+Total: 0.635879 ms (FindLiveObjects: 0.007585 ms CreateObjectMapping: 0.008478 ms MarkObjects: 0.129853 ms  DeleteObjects: 0.007585 ms)
+
+UnloadTime: 0.874612 ms
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0 / Dirty serialized files: 0)
+
+Unloading 1 unused Assets to reduce memory usage. Loaded Objects now: 196.
+Total: 2.076312 ms (FindLiveObjects: 0.028558 ms CreateObjectMapping: 0.026327 ms MarkObjects: 0.433290 ms  DeleteObjects: 0.010709 ms)
+
+buzlu main
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+UnloadTime: 0.582777 ms
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0 / Dirty serialized files: 0)
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 416.
+Total: 0.672916 ms (FindLiveObjects: 0.016064 ms CreateObjectMapping: 0.009817 ms MarkObjects: 0.174476 ms  DeleteObjects: 0.012494 ms)
+
